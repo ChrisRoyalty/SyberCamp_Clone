@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.icon {
+  font-size: 40px;
+  margin: 10px;
+  animation: bounceAnimation 1s infinite alternate;
+}
+.icon-1 {
+  color: #007bff;
+}
+.icon-2 {
+  color: #ff5500;
+  animation-delay: 0.2s;
+}
+.icon-3 {
+  color: #00cc00;
+  animation-delay: 0.4s;
+}
+@keyframes bounceAnimation {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+/* #digitalProducts {
+  background-image: url(../images/skyblue03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
